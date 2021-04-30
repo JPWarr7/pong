@@ -72,10 +72,10 @@ def paddle_r_down():
 
 # Keybinds
 wn.listen()
-wn.onkeypress(paddle_l_up, "w")
-wn.onkeypress(paddle_l_down, "s")
-wn.onkeypress(paddle_r_up, "Up")
-wn.onkeypress(paddle_r_down, "Down")
+wn.onkey(paddle_l_up, "w")
+wn.onkey(paddle_l_down, "s")
+wn.onkey(paddle_r_up, "Up")
+wn.onkey(paddle_r_down, "Down")
 
 # Main loop
 while True:
